@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 // uses the Navbar component from react-bootstrap to create a navigation bar
+// Nav.Link tag defines href extension
 const NavigationBar = () => {
   return (
         <Navbar bg="primary" data-bs-theme="dark">
