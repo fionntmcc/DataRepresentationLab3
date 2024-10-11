@@ -1,3 +1,4 @@
+import React from "react";
 import Movies from "./Movies";
 // Reusable read component
 const Read = () => {
@@ -30,7 +31,7 @@ const Read = () => {
 
     return <div>
             <h1>Hello from the Read component</h1>
-            <Movies myMovies = {data} />
+            <Movies myMovies={data} />
         </div>;
 }
   
