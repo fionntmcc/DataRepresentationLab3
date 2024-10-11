@@ -1,9 +1,11 @@
+// necessary inputs
 import React from "react";
 import Movies from "./Movies";
+
 // Reusable read component
 const Read = () => {
 
-    // constant to store movies
+    // constant to store movies as JSON
     const data = [
         {
             "Title": "Avengers: Infinity War",
@@ -28,7 +30,7 @@ const Read = () => {
         }
     ];
     
-
+    // return message and movie list
     return <div>
             <h1>Hello from the Read component</h1>
             <Movies myMovies={data} />
