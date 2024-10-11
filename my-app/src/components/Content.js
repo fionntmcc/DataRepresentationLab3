@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Content = () => {
+  // holds logic for "Hello World!" and Time
   return (
     <div>
       <h1>Hello World!</h1>
