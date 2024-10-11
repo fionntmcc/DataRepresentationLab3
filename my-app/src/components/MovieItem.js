@@ -2,11 +2,9 @@ import { useEffect } from "react";
 
 const MovieItem = (props) => {
 
-    
-
     return(
         <div>
-            <h3>{props.myMovie.title}</h3>
+            <h3>{props.myMovie.Title}</h3>
         </div>
     );
 }
